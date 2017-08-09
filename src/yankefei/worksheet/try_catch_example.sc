@@ -9,7 +9,7 @@ object try_match_example {
   }
 
   val code = 9
-  val result_match = code match{
+  val result_match = code match {
     case 1 => "one"
     case 2 => "two"
     case _ => "other"
